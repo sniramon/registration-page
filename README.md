@@ -136,3 +136,4 @@ if (sheet.getLastRow() - 1 >= SEAT_LIMIT) {
 ## License
 
 MIT — free to use and adapt for your own events.
+# registration-page

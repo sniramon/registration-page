@@ -4,23 +4,24 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Register – How AI & Innovation Are Redefining Customer Experience</title>
+  <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@400;600;700;800&display=swap" rel="stylesheet" />
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
     :root {
-      --cisco-blue: #049fd9;
-      --cisco-dark: #1b2a4a;
-      --chev-gold: #c9a84c;
-      --bg: #f5f7fa;
+      --cisco-blue: #dd3333;
+      --cisco-dark: #151111;
+      --chev-gold: #dd3333;
+      --bg: #f9faf7;
       --card: #ffffff;
-      --text: #1a1a2e;
+      --text: #222222;
       --muted: #6b7280;
       --border: #e5e7eb;
       --radius: 12px;
     }
 
     body {
-      font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+      font-family: 'Prompt', 'Segoe UI', system-ui, -apple-system, sans-serif;
       background: var(--bg);
       color: var(--text);
       min-height: 100vh;
@@ -28,7 +29,7 @@
 
     /* ── Hero ── */
     .hero {
-      background: linear-gradient(135deg, var(--cisco-dark) 0%, #0d3b6e 60%, #0a2744 100%);
+      background: linear-gradient(135deg, #5a4949 0%, #2a0a0a 60%, #672f2f 100%);
       color: #fff;
       padding: 64px 24px 72px;
       text-align: center;
@@ -39,7 +40,7 @@
       content: '';
       position: absolute;
       inset: 0;
-      background: radial-gradient(ellipse at 70% 50%, rgba(4,159,217,.25) 0%, transparent 65%);
+      background: radial-gradient(ellipse at 70% 50%, rgba(221,51,51,.2) 0%, transparent 65%);
     }
 
     .co-brands {
@@ -63,8 +64,8 @@
     .brand-badge.cisco { color: var(--cisco-blue); border-color: var(--cisco-blue); }
     .brand-badge.chev  { color: var(--chev-gold);  border-color: var(--chev-gold); }
     .co-brands .x {
-      color: rgba(255,255,255,.4);
-      font-size: 18px;
+      color: rgba(255, 255, 255, 0.989);
+      font-size: 56px;
     }
 
     .hero h1 {
@@ -229,7 +230,7 @@
     .submit-btn {
       width: 100%;
       padding: 13px;
-      background: linear-gradient(135deg, var(--cisco-blue), #0369a1);
+      background: linear-gradient(135deg, #dd3333, #b52020);
       color: #fff;
       border: none;
       border-radius: 8px;
@@ -292,10 +293,12 @@
 <!-- ═══ HERO ═══ -->
 <header class="hero">
   <div class="co-brands">
-    <span class="brand-badge chev">Chevalier Thai</span>
-    <span class="x">×</span>
-    <span class="brand-badge cisco" style="padding: 8px 16px;">
-      <img src="webex-logo.png" alt="Webex" style="height: 32px; width: auto; display: block;" />
+    <span class="brand-badge chev" style="padding: 12px 20px; border: none; background: transparent;">
+      <img src="Chevalier-Logo-JPG_0.jpg" alt="Chevalier" style="height: 110px; width: auto;" />
+    </span>
+    <!--   <span class="x">×</span> -->
+    <span class="brand-badge cisco" style="padding: 8px 16px; border: none; background: transparent;">
+      <img src="webex-logo.png" alt="Webex" style="height: 110px; width: auto;" />
     </span>
   </div>
 
@@ -324,7 +327,7 @@
   <section>
     <p class="section-title">Event Agenda</p>
     <div class="agenda-card">
-      <h2>Programme Overview</h2>
+      <h2>Program Overview</h2>
       <p class="agenda-subtitle">March 25, 2026 &nbsp;·&nbsp; Full afternoon session</p>
 
       <ul class="agenda-list">
